@@ -7,3 +7,11 @@ in: C:\ProgramData\Anaconda3\Library\bin>
 pyuic5.bat -x D:\GitRepos\QTreeViewTest\GuiBuilder\QTreeViewTest\mainwindow.ui -o  D:\GitRepos\QTreeViewTest\Python\mainwindow_convert.txt
 
 Output is txt file, copy python code to the correct place.
+
+Installation Package erstellen, dies muss in der korrekten Conda Enviorement stattfinden:
+in cmd:
+activate env_QDatenansichtTest
+wechseln ins entsprechende Diretory
+pyinstaller QTreeViewTest.py
+
+
